@@ -14,8 +14,10 @@ body {
 }
 
 #cabecalho {
-    position: absolute;
+    position: fixed;
     top: 0;
+    background-color: black;
+    padding: 10px 25px;
 }
 
 #minha_foto {
@@ -36,4 +38,14 @@ body {
 
 #tabela, #tabela th, #tabela td {
     border: 1px solid gray;
+}
+
+.lado-esquerdo, .lado-direito {
+    display: inline-block;
+    width: 40%;
+    margin: 3%;
+}
+
+.lado-direito {
+
 }
