@@ -1,15 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
 body {
     background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
+    position: absolute;
     top: 0;
 }
 
 #minha_foto {
-    margin-top: 80px;
+    margin: 80px 50px 30px;
     width: 300px;
+    border-radius: 80px;
+    border: 5px solid black;
+    
+}
+
+#licoes_aprendidas {
+    padding: 50px;
+}
+
+#licoes_a_aprender {
+    padding: 50px;
 }
 
 #tabela, #tabela th, #tabela td {
